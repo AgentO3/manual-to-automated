@@ -1,7 +1,7 @@
 Manual to Automated
 ===================
 
-## One Company’s Journey From Manual to Fully Automated
+## One Company’s Journey From Manual to Fully Automated Deployments
 
 You’ve heard of ChatOps, Jenkins, Hubot, git hooks, Capistrano, continuous integration tools, and lots more. But how do you glue these together into a solution that gets your code and artifacts from development to production? Everyone’s environment is different, and what works for some (e.g. rsync of code) may not work for another. We’ll discuss the evolution of our deployment processes and tools at VividCortex, from command line scripts to fully automated deployments via ChatOps.
 
