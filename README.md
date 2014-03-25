@@ -1,15 +1,17 @@
-Manual to Automated
+Manual to Automated Culture
 ===================
 
-## Building a customer-centric culture through automated deployments. 
+## Building a customer-centric culture through automated deployments 
 
 Building a company to be customer-centric is no easy task. It requires a culture that can move fast to fix problems, develop new features, and collectively listen. 
 
-But, today's deployment processes and cultures have a tendency to slow down responsiveness. Ironically, the higher the focus on quality, the slower it can be to make chanegs. Companies often forget that code that doesn't get to production is technical debt. Why? Because that code gets stale, contention happens, and the value of that code is not given to customers. 
+But, today's deployment processes and cultures have a tendency to slow down responsiveness. Ironically, if we focus excessively on high quality by removing the power of an individual to deploy code to production, the more value we destroy.    
 
-The trick of a custer-centric developer culture is to balance the need for quality with the need to keep code out of unused inventory. 
+Companies often forget that code that doesn't get to production is technical debt. Why? Because that code gets stale, contention happens, and the value of that code is not delivered to customers. 
 
-At VividCortex, we've built up our automated deployment process as part of our culture. Like many, we started with command line scripts and now we enabled every single person in the company to use fully automated deployment through our Chatbot.
+The trick of a custer-centric developer culture is to balance the need for quality with the need to get the code into production as fast as possible. 
+
+At VividCortex, we've built up our automated deployment process as part of our culture. Like many, we started with command line scripts and today we enabled every single person in the company to use fully automated deployment through our Chatbot.
 
 The format for this presentation is the following: 
 
