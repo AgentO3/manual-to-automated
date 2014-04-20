@@ -1,3 +1,21 @@
+Building a Culture of Deployment
+===================
+
+- Deployment is more than pushing code
+- Every deployment is a victory
+- Deploy early, deploy often
+  - Good code is code that fulfills the users need
+  - The value of code written is 0 until it's in production
+  - Code not merged into master rots quickly
+- Why don't developers deploy?
+  - Afraid to break production
+  - Perfectionists
+  - Don't have tools installed
+- Command line tools aren't social
+- Is there such a thing as too much automation?
+- Everything flows into the chatroom
+
+
 Manual to Automated
 ===================
 
