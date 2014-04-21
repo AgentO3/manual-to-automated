@@ -37,4 +37,4 @@ Building a Culture of ShipIt!
   - It's a victory, so celebrate!
   - Allow us to deploy when we are ready not when the code is ready
   - Problems will happen, so make sure you can find them fast
-  - When deployment is fun and easy, we will deploy allot!
+  - When deployment is fun and easy, we will ship allot!
