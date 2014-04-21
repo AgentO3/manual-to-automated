@@ -1,32 +1,34 @@
-Building a Culture of Deployment
+Building a Culture of ShipIt!
 ===================
 
-- Deployment is more than pushing code
-- Every deployment is a victory
-- Deploy early, deploy often
-  - Good code is code that fulfills the users need
-  - The value of code written is 0 until it's in production
-  - Code not merged into master rots quickly
-- Why don't developers deploy?
-  - Afraid to break production
-  - Perfectionists
+- Why don't we ship?
   - Don't have tools installed
-- Command line tools aren't social
-- Is there such a thing as too much automation?
-- Everything flows into the chatroom
+  - Afraid to break something
+  - Perfectionists
+- Why should we ship often?
+  - Code rots fast
+  - No ROI until it's in production
+  - It's satisfying
+- What's the deal with deployments?
+  - Commandline tools are hard to setup
+  - They are anti-social
+  - Too much automation steals the glory
+- What can we do?
+  - Use ChatOps
+    - It makes tools accessible
+    - It makes deployment social thing
+  - Every deployment is an epic
+    - Give us the satisfaction of pushing the button
+    - Celebrate your achivements
+  - Use feature flags
+    - Allows you to merge code in early
+    - Then hide it until it does not suck
+  - Problem detection over problem prevention
+    - Pingdom to make sure everything is up
+    - Kibana to aggratate and grok your logs
+    - Airbrake to monitor frontend exceptions
+- Deep Thoughts
+  - Deployment is more than just pushing code
+  - Every deployment is a victory
 
 
-Manual to Automated
-===================
-
-## One Company’s Journey From Manual to Fully Automated Deployments
-
-You’ve heard of ChatOps, Jenkins, Hubot, git hooks, Capistrano, continuous integration tools, and lots more. But how do you glue these together into a solution that gets your code and artifacts from development to production? Everyone’s environment is different, and what works for some (e.g. rsync of code) may not work for another. We’ll discuss the evolution of our deployment processes and tools at VividCortex, from command line scripts to fully automated deployments via ChatOps.
-
-In the beginning, there was command line tools and everything was good. Then you add a couple more team members. Even though you think command line tools are simple the new team members find them unfamiliar. They are new of course and are in general apprehensive about pushing their changes to production for fear of doing something that brings down the application. So the new team members ask you to deploy or just don’t deploy very often, and you have become the key master for deployments. If you are out that day or unavailable or even worse get hit by a bus then nothing gets deployed. This can be a big problem if you are trying to iterate fast.
-
-So you begin to look for ways to remove yourself as a bottleneck. The first step is to automate those deployments. This is where a tool like Jenkins makes sense. You create jobs in Jenkins to run those existing command line deployment scripts. Jenkins gives you a UI with a button to push to run that deployment script. As a result, those team members which were not deploying before, are now deploying regularly. However not all of them are deploying yet, and you also added another couple of team member, but for some reason they are not deploying anything. When you ask why, they say don’t know how.
-
-So you begin to look for ways to make those commands you automated more accessible and discoverable. You would probably start off with documentation in a wiki. However, you still have a problem of discoverability of the wiki. If your company is like ours then the chatroom is the common area of your company. This is where everyone is communicating in real time. If you make those commands, you automated in Jenkins available in the chatroom then; you have solved, the problem of discoverability and accessibility. This is one of the big ideas behind ChatOps. By putting those tools in the middle of the chat conversation the new team members are learning by seeing the existing team members run those commands. Now new team members are pushing code to production within the first few days, and the existing team members are pushing code to production multiple times a day.
-
-This is the evolution of deployment at VividCortex. We have a culture of “ShipIt” which means getting your code into production early and often. By using Jenkins and ChatOps, we are making what is considered by many developers to be a scary and confusing process into one that is considered by our team to be ( dare I say ) fun! The rapid pace of iteration delights our stakeholder, early adopters are excited to see new features and having their feedback steer the direction of the product, and our team members find great satisfaction in seeing the fruits of their labor being used by our customers.
