@@ -16,7 +16,6 @@ Building a Culture of ShipIt!
   - Commandline tools are hard to setup
   - Also they don't scale well to teams
   - It's anti-social
-  - No glory
 - What can we do to make deployments awesome?
   - Use ChatOps
     - It makes tools accessible to all
