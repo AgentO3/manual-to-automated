@@ -1,34 +1,40 @@
 Building a Culture of ShipIt!
 ===================
 
-- Why don't we ship?
+- Why don't we ship enough?
   - Don't have tools installed
   - Afraid to break something
   - Perfectionists
+  - Not my job
 - Why should we ship often?
   - Code rots fast
-  - No ROI until it's in production
-  - It's satisfying
+  - No ROI on code until it's in production
+  - Customers and stakeholders like to see progress
+  - Hard to know your code works right without a production workload and data
+  - Nothing makes us happier then seeing our work being used
 - What's the deal with deployments?
   - Commandline tools are hard to setup
-  - They are anti-social
-  - Too much automation steals the glory
-- What can we do?
+  - Also they don't scale well to teams
+  - It's anti-social
+  - No glory
+- What can we do to make deployments awesome?
   - Use ChatOps
-    - It makes tools accessible
-    - It makes deployment social thing
-  - Every deployment is an epic
+    - It makes tools accessible to all
+    - It makes deployments social thing
+  - Every deployment is epic
     - Give us the satisfaction of pushing the button
-    - Celebrate your achivements
+    - Celebrate like it's a rocket to the moon
   - Use feature flags
     - Allows you to merge code in early
-    - Then hide it until it does not suck
+    - Then hide it
+    - Iterate until it sucks less
   - Problem detection over problem prevention
-    - Pingdom to make sure everything is up
+    - Pingdom to alert you when your down
     - Kibana to aggratate and grok your logs
     - Airbrake to monitor frontend exceptions
-- Deep Thoughts
-  - Deployment is more than just pushing code
-  - Every deployment is a victory
-
-
+- Final Thoughts
+  - Deployment should be social event
+  - It's a victory, so celebrate!
+  - Allow us to deploy when we are ready not when the code is ready
+  - Problems will happen, so make sure you can find them fast
+  - When deployment is fun and easy, we will deploy allot!
