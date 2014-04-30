@@ -11,11 +11,11 @@ Building a Culture of ShipIt!
   - No ROI on code until it's in production
   - Customers and stakeholders like to see progress
   - Hard to know your code works right without a production workload and data
-  - Nothing makes us happier then seeing our work being used
+  - Nothing makes us happier than seeing our work being used
 - What's the deal with deployments?
   - Commandline tools are hard to setup
-  - Also they don't scale well to teams
-  - It's anti-social
+  - Also they don't scale well past a couple of team members
+  - It's anti-social, unless your pair programming
 - What can we do to make deployments awesome?
   - Use ChatOps
     - It makes tools accessible to all
@@ -25,12 +25,15 @@ Building a Culture of ShipIt!
     - Celebrate like it's a rocket to the moon
   - Use feature flags
     - Allows you to merge code in early
-    - Then hide it
+    - Then hide it from public eyes
     - Iterate until it sucks less
   - Problem detection over problem prevention
-    - Pingdom to alert you when your down
-    - Kibana to aggratate and grok your logs
-    - Airbrake to monitor frontend exceptions
+    - Testing is good, but it can slow you down from building features
+    - 100% code coverage will never prevent all bugs
+    - Whem moving fast concentrate on tools to help you discover problems
+      - Pingdom to alert you when your down
+      - Kibana to aggregate and grok your logs
+      - Airbrake to monitor frontend exceptions
 - Final Thoughts
   - Deployment should be social event
   - It's a victory, so celebrate!
