@@ -1,0 +1,10 @@
+- First day @VividCortex
+  - Deployment via Capistrano
+    - Required that dev have ssh
+  - Human keyboard problem
+  - Releases happening about once a week
+  - Devs apprehensive about deploying
+- Goals for improving deployments
+  - Make them fun
+  - Make them easy
+  - Make them accessible
